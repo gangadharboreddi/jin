@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jbundle-util-webapp-proxy">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/jbundle-util-webapp-redirect/jbundle-util-webapp-redirect">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="jbundle-util-webapp-proxy"/>
+        <property name="java-output-path" value="/jbundle-util-webapp-proxy/target/classes"/>
+    </wb-module>
+</project-modules>
